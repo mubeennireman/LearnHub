@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="assets/images/logo.jpg" alt="LearnHub Logo" width="50" height="50"></a>
+        </div>
+        <ul>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+    <main>
+        <section class="login-section">
+            <h2>Login</h2>
+            <form action="login_process.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <input type="submit" value="Login">
+                
+            </form>
+        </section>
+    </main>
+</body>
+</html>
