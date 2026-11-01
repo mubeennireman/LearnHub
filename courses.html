@@ -1,29 +1,118 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>courses</title>
+    <title>Our Courses - LearnHub</title>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html"><img src="assets/images/logo.jpg" alt="LearnHub Logo" width="50" height="50"></a>
-        </div>
-        <ul>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div>
-            <a href="login.html">Login</a>
-        </div>
-    </header>
-    <main>
-        <section class="courses-section">
-            <h2>Our Courses</h2>
-            <p>Explore our wide range of courses designed to meet your learning needs and career goals.</p>
-        </section>
-    </main>
+
+<header>
+    <h1><a href="index.html">LearnHub</a></h1>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Explore Our Courses</h1>
+
+    <form action="courses.html" method="get">
+        <label for="search">Search Courses:</label>
+        <input type="search" id="search" name="q"
+               placeholder="Enter course name">
+
+        <button type="submit">Search</button>
+    </form>
+
+    <section>
+        <h2>Available Courses</h2>
+
+        <article>
+            <h3>HTML Fundamentals</h3>
+            <p>Level: Beginner</p>
+            <p>Duration: 2 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+
+        <article>
+            <h3>CSS Mastery</h3>
+            <p>Level: Beginner</p>
+            <p>Duration: 3 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+
+        <article>
+            <h3>JavaScript Programming</h3>
+            <p>Level: Intermediate</p>
+            <p>Duration: 6 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+
+        <article>
+            <h3>Python Programming</h3>
+            <p>Level: Beginner</p>
+            <p>Duration: 4 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+
+        <article>
+            <h3>Linux Fundamentals</h3>
+            <p>Level: Intermediate</p>
+            <p>Duration: 3 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+
+        <article>
+            <h3>Git and GitHub</h3>
+            <p>Level: Beginner</p>
+            <p>Duration: 2 Weeks</p>
+            <a href="course-details.html">View Details</a>
+        </article>
+    </section>
+
+    <section>
+        <h2>Course Comparison</h2>
+
+        <table border="1">
+            <caption>Course Information</caption>
+
+            <thead>
+                <tr>
+                    <th scope="col">Course</th>
+                    <th scope="col">Level</th>
+                    <th scope="col">Duration</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                    <td>2 Weeks</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                    <td>4 Weeks</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                    <td>6 Weeks</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 LearnHub</p>
+</footer>
+
 </body>
 </html>

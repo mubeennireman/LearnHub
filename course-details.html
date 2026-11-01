@@ -1,29 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>course-details</title>
+    <title>HTML Fundamentals - LearnHub</title>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html"><img src="assets/images/logo.jpg" alt="LearnHub Logo" width="50" height="50"></a>
-        </div>
-        <ul>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div>
-            <a href="login.html">Login</a>
-        </div>
-    </header>
-    <main>
-        <section class="course-details-section">
-            <h2>Course Details</h2>
-            <p>Welcome to the course details page! Here you can find comprehensive information about our courses, including syllabus, instructors, and enrollment options.</p>
+
+<header>
+    <h1><a href="index.html">LearnHub</a></h1>
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="courses.html">Courses</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h1>HTML Fundamentals</h1>
+
+        <p>Learn HTML from beginner to advanced level.</p>
+
+        <p>Instructor: Alex</p>
+        <p>Duration: 2 Weeks</p>
+        <p>Level: Beginner</p>
+
+        <section>
+            <h2>Course Syllabus</h2>
+
+            <ol>
+                <li>HTML Introduction
+                    <ul>
+                        <li>HTML document structure</li>
+                        <li>HTML elements</li>
+                    </ul>
+                </li>
+
+                <li>Text and Links</li>
+                <li>Images and Lists</li>
+                <li>Tables</li>
+                <li>Forms</li>
+                <li>Semantic HTML</li>
+                <li>Advanced HTML</li>
+            </ol>
         </section>
-    </main>
+
+        <section>
+            <h2>Learning Outcomes</h2>
+            <ul>
+                <li>Create web pages.</li>
+                <li>Build HTML forms.</li>
+                <li>Understand semantic elements.</li>
+                <li>Build multi-page websites.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Introduction Video</h2>
+            <video controls width="400">
+                <source src="assets/videos/introduction.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>Do I need programming experience?</summary>
+                <p>No. This course is designed for beginners.</p>
+            </details>
+
+            <details>
+                <summary>What do I need to start?</summary>
+                <p>A computer and a code editor are sufficient.</p>
+            </details>
+        </section>
+
+        <a href="register.html">Enroll Now</a>
+    </article>
+</main>
+
+<footer>
+    <p>&copy; 2026 LearnHub</p>
+</footer>
+
 </body>
 </html>
